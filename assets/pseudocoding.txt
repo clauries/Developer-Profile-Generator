@@ -21,7 +21,7 @@ Using Inquirerer prompt user via terminal to
         github Profile
 
     
-Function to pull from GitHub using axios/github api
+*Function to pull from GitHub using axios/github api
     res = https://api.github.com/users/${username}
     Name
         res.name
@@ -40,12 +40,13 @@ Function to pull from GitHub using axios/github api
         res.public_repos
     Number of followers
         res.followers
-    Number of github stars
-        res.starred_url.length
     Number of users following
         res.following
     
-    Resources
+*Separate call for
+    Number of github stars
+    
+    *Resources
         Activity 33
         https://developer.github.com/v3/users/
 

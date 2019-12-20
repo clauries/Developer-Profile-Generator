@@ -1,0 +1,86 @@
+Make your own package.json
+Use the inquirer node package.
+Use the electron-html-to.
+    Will take an HTML template you designed to create a pdf
+    type in: package converter pdf 
+Use GitHub API
+    Use Axios - get API via node
+Use google maps for user location
+    api? Research?
+The application will be invoked with the following command:
+    node index.js
+    So use the index.js as the main file
+
+Using Inquirerer prompt user via terminal to 
+    Favorite color 
+        Instructions to arrow through list
+            green
+            blue
+            pink
+            red
+    Links to:
+        github Profile
+
+    
+Function to pull from GitHub using axios/github api
+    res = https://api.github.com/users/${username}
+    Name
+        res.name
+    blog/website
+        res.blog
+    Profile image
+        res.avatar_url
+    Bio
+        res.bio
+    current employment:
+        res.company
+    Location
+        res.location
+        https://www.google.com/maps/place/${location}
+    Number of public repos
+        res.public_repos
+    Number of followers
+        res.followers
+    Number of github stars
+        res.starred_url.length
+    Number of users following
+        res.following
+    
+    Resources
+        Activity 33
+        https://developer.github.com/v3/users/
+
+
+Function writing template literal
+    Use gerateHTML.js as template for classes/ids
+    use backticks around html
+    use ${} around inserted data
+        color
+        Above github info
+    Need a fail-safe for if the info is not written on github
+        If (data = null) {
+            write "information not available"
+        } else {
+            data append/write in
+        }
+function Write to a new file.
+    New file = name.html (or .js?)
+
+    Resources  
+        Activities 23-24
+
+Function convert to pdf using electron
+
+README 
+    badges
+    directions for use
+        Need a github account
+    download your own packages?
+        how to do this
+
+Convert to gif - add to readme
+Submitting
+    Generate a PDF of your own github profile
+    github repo address
+
+

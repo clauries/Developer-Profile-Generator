@@ -1,0 +1,24 @@
+{
+  "name": "developer-profile-generator",
+  "version": "1.0.0",
+  "description": "Node app creating pdf profiles for developers based on their GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clauries/Developer-Profile-Generator.git"
+  },
+  "author": "Laurie Schroeder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clauries/Developer-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/clauries/Developer-Profile-Generator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "electron-html-to": "^2.6.0",
+    "inquirer": "^7.0.1"
+  }
+}
